@@ -1,0 +1,42 @@
+Package: mtk-linkit-webui
+Version: 2015-11-18-fc0e87bd38f626242e807ce865440bb013dece0b
+Depends: libc
+Source: feeds/linkit/mtk-linkit-webui
+Section: opt
+Architecture: ramips_24kec
+Installed-Size: 641717
+Filename: mtk-linkit-webui_2015-11-18-fc0e87bd38f626242e807ce865440bb013dece0b_ramips_24kec.ipk
+Size: 641561
+MD5Sum: a83df59553ef2b34f5e27b5c4853a38f
+SHA256sum: 5ba23f976bf5aa6377528b5cc3c5c9cfb2b23bfb8ec6175680be406a51e03506
+Description:  LinkIt Smart 7688 Webui
+
+Package: mtk-linkit
+Version: 1
+Depends: libc, gdbserver, curl, strace, coreutils, coreutils-stty, avahi-nodbus-daemon, mountd, mjpg-streamer, uhttpd, rpcd, rpcd-mod-iwinfo, git, git-http, samba36-server, python, python-pyserial, python-pip, hidapi, libmraa, libupm, node, node-hid, node-cylon-firmata, yunbridge, luci, luci-theme-openwrt, luci-app-mjpg-streamer, luci-app-samba, luci-lib-json, rpcd-mod-rpcsys, cgi-io, avrdude, spi-tools, kmod-fs-vfat, kmod-fs-exfat, kmod-i2c-core, kmod-i2c-ralink, kmod-nls-base, kmod-nls-cp437, kmod-nls-iso8859-1, kmod-nls-iso8859-15, kmod-nls-iso8859-2, kmod-nls-utf8, kmod-sdhci-mt7620, kmod-usb-storage, kmod-video-core, kmod-video-uvc, kmod-sound-core, kmod-sound-mtk, madplay-alsa, alsa-utils, mtk-linkit-webui, mtk-sdk-wifi
+Source: feeds/linkit/mtk-linkit
+Section: opt
+Architecture: ramips_24kec
+Installed-Size: 13313
+Filename: mtk-linkit_1_ramips_24kec.ipk
+Size: 14335
+MD5Sum: 2a9281ff43699199d0ffd609bd8c3533
+SHA256sum: 1fb97d73a0b68ed46986b9e0a15f8b82e92e45cd3a11bff70c2a2db32200ba2f
+Description:  MTK LinkIt Smart board support package
+
+Package: mtk-sdk-wifi
+Version: 2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371
+Depends: libc, wireless-tools, libuci
+Source: feeds/linkit/mtk-sdk-wifi
+License: GPL-2.0
+Section: ralink
+Architecture: ramips_24kec
+Installed-Size: 799410
+Filename: mtk-sdk-wifi_2015-06-01-ade8b1b299cbd5748db1acf80dd3e9f567938371_ramips_24kec.ipk
+Size: 790397
+MD5Sum: 66814c681e8981318ad131494c459d2d
+SHA256sum: 51d6cee06eb26a619d7ee6713241a49543b8f7fb26678ae45fe83ff8e0b68a85
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ madwifi, nl80211 and wext driver interfaces.
+ Command line frontend for the wireless information library.
+

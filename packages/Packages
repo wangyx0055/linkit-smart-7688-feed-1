@@ -1,0 +1,1041 @@
+Package: alsa-lib
+Version: 1.0.28-1
+Depends: libc, kmod-sound-core, libpthread, librt
+Source: feeds/packages/libs/alsa-lib
+License: LGPLv2.1 GPLv2
+LicenseFiles: COPYING aserver/COPYING
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 287837
+Filename: alsa-lib_1.0.28-1_ramips_24kec.ipk
+Size: 285853
+MD5Sum: 0dddde15c5a2fdf5f65c12c7b967e6b2
+SHA256sum: 2a36d1a694d0d8f81338c8bee3aab2de45773de463045323ea2f47c618639bcd
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: alsa-utils
+Version: 1.0.28-2
+Depends: libc, alsa-lib, libncurses, libpthread
+Source: feeds/packages/utils/alsa-utils
+Section: utils
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 124633
+Filename: alsa-utils_1.0.28-2_ramips_24kec.ipk
+Size: 123835
+MD5Sum: c31ca8c7c5c72afdff5a99b2aadc07ed
+SHA256sum: 5c99ea7c28dd07fd1dc98fe5be38e2a638a34ced56d649cb218344018142cfaa
+Description:  ALSA (Advanced Linux Sound Architecture) utilities
+
+Package: avahi-nodbus-daemon
+Version: 0.6.31-12
+Depends: libc, libavahi-nodbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: feeds/packages/libs/avahi
+Section: net
+Require-User: avahi=105:avahi=105
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 20736
+Filename: avahi-nodbus-daemon_0.6.31-12_ramips_24kec.ipk
+Size: 21796
+MD5Sum: 50268be8659617542043c30ab60a00f9
+SHA256sum: db9293a8894d7fa87b6f146dee02fa7ad5bcbdc5e2de723571896fe384748c69
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: avrdude
+Version: 6.1-1
+Depends: libc, libncurses, libreadline, libusb-compat, libftdi1, libelf1
+Source: feeds/packages/utils/avrdude
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 181836
+Filename: avrdude_6.1-1_ramips_24kec.ipk
+Size: 182161
+MD5Sum: ec4bf9bf15cd12e86d533ca6da5d555b
+SHA256sum: 43d610736b8153a2e68406585ccef2b675444421de4938225b9768457b769816
+Description:  AVRDUDE is a full featured program for programming Atmel's AVR CPU's.
+
+Package: cgi-io
+Version: 1
+Depends: libc, libubox, libubus
+Source: feeds/packages/net/cgi-io
+License: GPL-2.0+
+Section: net
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 6104
+Filename: cgi-io_1_ramips_24kec.ipk
+Size: 6845
+MD5Sum: 95e8b24dc258288f428ae8deca20e765
+SHA256sum: d9312597577f2e7161ee9330abc8609d447f43087e5ce128bde9f8a4860561d2
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: coreutils-stty
+Version: 8.23-1
+Depends: libc, coreutils
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 26929
+Filename: coreutils-stty_8.23-1_ramips_24kec.ipk
+Size: 27750
+MD5Sum: 877f9232366ac7c2f961194150a79e61
+SHA256sum: 036bec563bb6f96833d5c8430518f40d66621fd2ad7de967c300d299734ce8a1
+Description:  Full version of standard GNU stty utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: coreutils
+Version: 8.23-1
+Depends: libc
+Source: feeds/packages/utils/coreutils
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 105
+Filename: coreutils_8.23-1_ramips_24kec.ipk
+Size: 881
+MD5Sum: 1baaea7ad8af2cbd2b18a3b790e29d45
+SHA256sum: c7e1d3990af4c685032970de88fa8cc0f4ce49e7e05045f28772096b85eb8e2c
+Description:  Full versions of standard GNU utilities. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient and
+ smaller.
+
+Package: ffmpeg
+Version: 2.6.2-1
+Depends: libc, libpthread, libffmpeg-full
+Source: feeds/packages/multimedia/ffmpeg
+License: LGPL-2.1+ GPL-2+ LGPL-3
+LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
+Section: multimedia
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 85617
+Filename: ffmpeg_2.6.2-1_ramips_24kec.ipk
+Size: 86307
+MD5Sum: 6f605751b3419b6fad6bdf4888801150
+SHA256sum: 2feeb6b879803e6398f50dc7a28e05050583be31bdb0779858f08dbc84940b35
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ .
+ This package contains the FFmpeg command line tool.
+
+Package: git-http
+Version: 2.3.5-1
+Depends: libc, git, libcurl, ca-certificates
+Source: feeds/packages/net/git
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 994492
+Filename: git-http_2.3.5-1_ramips_24kec.ipk
+Size: 993817
+MD5Sum: 75be538af85ab0e7c3b3f8c50f5a2310
+SHA256sum: 98d0ee22504cd4787b06fc6fa99baee2183ed40f529f515afc404d675f827a64
+Description:  Git is a free & open source, distributed version control system
+ designed to handle everything from small to very large projects
+ with speed and efficiency.
+ 
+ This package allows git push/fetch over http(s) and ftp(s)
+
+Package: git
+Version: 2.3.5-1
+Depends: libc, libopenssl, libpthread, librt
+Source: feeds/packages/net/git
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 781657
+Filename: git_2.3.5-1_ramips_24kec.ipk
+Size: 781711
+MD5Sum: 9bf6bb98cfacd03d39ca0e84df6b444d
+SHA256sum: 3f94924b58e4114919f4f8e86abd7aa4d39c5fae669aa757c90bcaae96884140
+Description:  Git is a free & open source, distributed version control system
+ designed to handle everything from small to very large projects
+ with speed and efficiency.
+
+Package: hidapi
+Version: 0.8.0-rc1-1
+Depends: libc, libusb-1.0, libiconv, librt
+Source: feeds/packages/libs/hidapi
+License: BSD-3-Clause
+LicenseFiles: LICENSE-bsd.txt
+Section: libs
+Maintainer: Paul Fertser <fercerpav@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 11642
+Filename: hidapi_0.8.0-rc1-1_ramips_24kec.ipk
+Size: 12601
+MD5Sum: d03b910c941ce3ac5a9b31dea58866a8
+SHA256sum: 015146262d32b5a373da9adfd3b1daa3c75c553d6e4d7396f7513c747aded48c
+Description:  HIDAPI is a multi-platform library which allows an application to interface
+ with USB and Bluetooth HID-Class devices on Windows, Linux, FreeBSD, and Mac
+ OS X.  HIDAPI can be either built as a shared library (.so or .dll) or
+ can be embedded directly into a target application by adding a single source
+ file (per platform) and a single header.
+
+Package: kmod-fs-exfat
+Version: 3.18.23+git-20150301-1
+Depends: kernel (=3.18.23-1-f573527c70e377c8f9bbf96f806ea292), kmod-nls-base
+Source: feeds/packages/kernel/exfat-nofuse
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+Maintainer: Bruno Randolf <br1@einfach.org>
+Architecture: ramips_24kec
+Installed-Size: 45457
+Filename: kmod-fs-exfat_3.18.23+git-20150301-1_ramips_24kec.ipk
+Size: 46365
+MD5Sum: f3557cc0627f3def8d12e02cb69c94cb
+SHA256sum: 5ead86677d16f39b4fbdbf04c0cd4b9dea6ad9f610b37a51704456d604ab393a
+Description:  Kernel module for ExFAT Filesytems
+
+Package: libavahi-nodbus-support
+Version: 0.6.31-12
+Depends: libc, libpthread
+Provides: libavahi
+Source: feeds/packages/libs/avahi
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 66645
+Filename: libavahi-nodbus-support_0.6.31-12_ramips_24kec.ipk
+Size: 67886
+MD5Sum: 93f60fff031fc96922af3e72090942c4
+SHA256sum: 8bb4bfe1db8a84c29ceec0847793a599a914abd4c19ea4f95a9c9f980f3e8b85
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built without support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 8256
+Filename: libdaemon_0.14-5_ramips_24kec.ipk
+Size: 9288
+MD5Sum: 204dafde48edcb040665bdf9f4a83199
+SHA256sum: 9f106c9a953612065ed9bf93a7d9aeaa9c735bc9126be2b23a436f9386c55155
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdb47
+Version: 4.7.25.4.NC-4.1
+Depends: libc, libxml2
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: ramips_24kec
+Installed-Size: 473480
+Filename: libdb47_4.7.25.4.NC-4.1_ramips_24kec.ipk
+Size: 473461
+MD5Sum: 046b7421555c2af2f702d9bcd26c8cdd
+SHA256sum: 5cb8ad716f6f051dc41f0fe9428dc078155f35285606f602dcd9946fd9bd239c
+Description:  Berkeley DB library (4.7).
+
+Package: libexpat
+Version: 2.1.0-3
+Depends: libc
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 52599
+Filename: libexpat_2.1.0-3_ramips_24kec.ipk
+Size: 53238
+MD5Sum: 6d0539c657dd82a6fd3f5a04a4984a69
+SHA256sum: 51362135d8be2a7024a98162b1a5ac2060912577598b8751f2d097862f9b0752
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.0.13-1
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: ramips_24kec
+Installed-Size: 5311
+Filename: libffi_3.0.13-1_ramips_24kec.ipk
+Size: 6305
+MD5Sum: e9608d52222a1986d984c7d675d7f54b
+SHA256sum: 2ea0abe2a9adf8150e3f7bbbcca1271e585efe44cb86c80744f20987c6795ff3
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libffmpeg-full
+Version: 2.6.2-1
+Depends: libc, libpthread, zlib, libbz2, alsa-lib
+Provides: libffmpeg
+Source: feeds/packages/multimedia/ffmpeg
+License: LGPL-2.1+ GPL-2+ LGPL-3
+LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 4674919
+Filename: libffmpeg-full_2.6.2-1_ramips_24kec.ipk
+Size: 4655639
+MD5Sum: 89cff09bf4b460ad2919267495390799
+SHA256sum: 7e61f14fe6c88e1da1f18d54082ace0355daec5ddc8e48541c5d854099b4270c
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ .
+ This package contains full-featured FFmpeg shared libraries.
+
+Package: libftdi1
+Version: 1.2-3
+Depends: libc, libusb-1.0
+Source: feeds/packages/libs/libftdi1
+License: LGPL-2.0
+LicenseFiles: COPYING.LIB
+Section: libs
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 19196
+Filename: libftdi1_1.2-3_ramips_24kec.ipk
+Size: 20132
+MD5Sum: 85bd86ce88c928d54a076d9a87d3450b
+SHA256sum: c18c1c89cf51f8924e3ed00945d44e470f4bc815b5b17af78acec9b4cb64159f
+Description:  libFTDI - FTDI USB driver with bitbang mode
+ libFTDI is an open source library to talk to FTDI chips: FT232BM, FT245BM, FT2232C, FT2232H, FT4232H, FT2232D and FT245R, including the popular bitbang mode. 
+ The library is linked with your program in userspace, no kernel driver required.
+
+Package: libgdbm
+Version: 1.11-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: ramips_24kec
+Installed-Size: 17372
+Filename: libgdbm_1.11-1_ramips_24kec.ipk
+Size: 18197
+MD5Sum: a34a6c17989fd96af100fbb6a65e99a4
+SHA256sum: 9cc97e01c56deb60eba7b50dfdf1fa51467b6f7855cbb9d894884de77f049390
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, zlib
+Source: feeds/packages/libs/libid3tag
+License: GPL-2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 24092
+Filename: libid3tag_0.15.1b-4_ramips_24kec.ipk
+Size: 24704
+MD5Sum: b999468b25441f9e45df67cb64eb7dfb
+SHA256sum: 3c8b2acaff0ba6902af562a8a85f25d60432ed600815ed90b09b9884033b9666
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 98793
+Filename: libjpeg_9a-1_ramips_24kec.ipk
+Size: 99510
+MD5Sum: 80e4b70fa485c729cfb8f4de4164347d
+SHA256sum: 7d2426a08b49eda87a8b93d49fd54fe20df5180646cb541118ffe78fef270e0c
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libmad
+Version: 0.15.1b-3
+Depends: libc
+Source: feeds/packages/libs/libmad
+License: GPLv2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: ramips_24kec
+Installed-Size: 60518
+Filename: libmad_0.15.1b-3_ramips_24kec.ipk
+Size: 61526
+MD5Sum: f04246f6553ede07d0866b1392e09d40
+SHA256sum: a36a862d14acf73f6db593f834b42cfdd9e1a6c4653f761f666df5b79c3907bf
+Description:  MAD is a high-quality MPEG audio decoder. It currently supports
+ MPEG-1 and the MPEG-2 extension to lower sampling frequencies,
+ as well as the de facto MPEG 2.5 format. All three audio layers -
+ Layer I, Layer II, and Layer III (i.e. MP3) - are fully implemented.
+
+Package: libmraa
+Version: 0.8.0-70600dece4138b0c0dbaff42f57828f1559cd840
+Depends: libc, python, libstdcpp
+Source: feeds/packages/libs/libmraa
+License: LGPL-2.1
+Section: libs
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 166215
+Filename: libmraa_0.8.0-70600dece4138b0c0dbaff42f57828f1559cd840_ramips_24kec.ipk
+Size: 166079
+MD5Sum: 49e7cdaf629afcebc82b73e800a6c81d
+SHA256sum: e9ceb130c9872009dae6ab8d8ccd594631aee5614e8d53977462f430b4467acf
+Description:  Intel IoT lowlevel IO library
+
+Package: libsqlite3
+Version: 3081101-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 365884
+Filename: libsqlite3_3081101-1_ramips_24kec.ipk
+Size: 366305
+MD5Sum: 81009cf5bb1a92302218a573c5725826
+SHA256sum: f00c723656465b75fb8dd4f6161f0eec0d6f96ea7779a635db8c3e99596dea86
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libupm
+Version: 0.4.0-04dc6df4297a7766d6f1a8fef9699d586e7e0d92
+Depends: libc, libmraa, librt
+Source: feeds/packages/libs/libupm
+License: LGPL-2.1
+Section: libs
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 4455114
+Filename: libupm_0.4.0-04dc6df4297a7766d6f1a8fef9699d586e7e0d92_ramips_24kec.ipk
+Size: 4433443
+MD5Sum: e0807e777a8e9ba91415571cd36eb617
+SHA256sum: 2f9f6a1df08b13a9608b154e5e01088fe90f5a89a6f386766a3402c6cd8ba438
+Description:  Intel IoT sensor library - Full
+
+Package: libuv
+Version: 1.4.2-1
+Depends: libc, libpthread, librt
+Source: feeds/packages/libs/libuv
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 47253
+Filename: libuv_1.4.2-1_ramips_24kec.ipk
+Size: 48141
+MD5Sum: 7722c6a8e363f06ca569c877fe420f78
+SHA256sum: 604f2179aebe8330cfcdae2818e23e208d7f7a3c0daa8c65f0fc760168db8f39
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libxml2
+Version: 2.9.2-3
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: ramips_24kec
+Installed-Size: 474954
+Filename: libxml2_2.9.2-3_ramips_24kec.ipk
+Size: 473077
+MD5Sum: f567a45ac3f010f7891f11065bd663a3
+SHA256sum: 72196d7d27078ee9ba1f969b1eb8d98c55ff7e5ea4b140c4575687e1597a197b
+Description:  A library for manipulating XML and HTML resources.
+
+Package: madplay-alsa
+Version: 0.15.2b-4
+Depends: libc, libid3tag, libmad, alsa-lib
+Source: feeds/packages/sound/madplay
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: sound
+Maintainer: Simon Peter <probono@puredarwin.org>
+Architecture: ramips_24kec
+Installed-Size: 29754
+Filename: madplay-alsa_0.15.2b-4_ramips_24kec.ipk
+Size: 30476
+MD5Sum: a121494f0a7c0954ae03e90025dff690
+SHA256sum: 3e0f1d926e4f1f82e384fd7b9638a7e65af506ec545a6b4fc6490b8a6bdee01c
+Description:  MPEG audio player in fixed point - alsa
+
+Package: mjpg-streamer
+Version: r182-7
+Depends: libc, libpthread, libjpeg
+Source: feeds/packages/multimedia/mjpg-streamer
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: multimedia
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 33636
+Filename: mjpg-streamer_r182-7_ramips_24kec.ipk
+Size: 34505
+MD5Sum: d3e6f38f0fdeba0101c37902d458cabc
+SHA256sum: 3e721b460307d0a299dccad9e332257b90d4f60f48607dbfaf45c1787fa725ec
+Description:  Streaming application for Linux-UVC compatible webcams
+
+Package: node-arduino-firmata
+Version: 0.3.3-1
+Depends: libc, node, node-serialport
+Source: feeds/packages/lang/node-arduino-firmata
+License: MIT
+Section: lang
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 25303
+Filename: node-arduino-firmata_0.3.3-1_ramips_24kec.ipk
+Size: 26104
+MD5Sum: 77d0b37f651c56e760b5f8b77377abbf
+SHA256sum: 5056c9d0bf9064f0d2bc740f5a5c2a89be7ba6fad4d53b6916f64dfb0a517570
+Description:  Node.js package to access serial ports for reading and writing OR Welcome your robotic JavaScript overlords. Better yet, program them!
+
+Package: node-cylon-firmata
+Version: 0.22.0-1
+Depends: libc, node, node-cylon-gpio, node-cylon-i2c, node-arduino-firmata
+Source: feeds/packages/lang/node-cylon
+License: Apache-2.0
+Section: lang
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 7047
+Filename: node-cylon-firmata_0.22.0-1_ramips_24kec.ipk
+Size: 7828
+MD5Sum: 472816d5b81df41338cc330b28ec0a3a
+SHA256sum: 347413b355ae09725fc4f7502178806ef62028643150dd509a960091b88a5c8d
+Description:  CylonJS - Firmata
+
+Package: node-cylon-gpio
+Version: 0.22.0-1
+Depends: libc, node, node-cylon
+Source: feeds/packages/lang/node-cylon
+License: Apache-2.0
+Section: lang
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 19350
+Filename: node-cylon-gpio_0.22.0-1_ramips_24kec.ipk
+Size: 20091
+MD5Sum: 08fe94d9035b2293532e19d1470f82fc
+SHA256sum: de23d1993cfd12b50338fa3f540d180c32e6dd400abd3c0fb21c395ac4987911
+Description:  CylonJS - GPIO
+
+Package: node-cylon-i2c
+Version: 0.22.0-1
+Depends: libc, node, node-cylon
+Source: feeds/packages/lang/node-cylon
+License: Apache-2.0
+Section: lang
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 721880
+Filename: node-cylon-i2c_0.22.0-1_ramips_24kec.ipk
+Size: 722785
+MD5Sum: 684b27fa777a50a09b58f70aa633d33e
+SHA256sum: b767aefbb1b8ba4528b95fa0a3a4149ac4e39606fa128ff36a0c523ee529d555
+Description:  CylonJS - I2C
+
+Package: node-cylon
+Version: 0.22.0-1
+Depends: libc, node
+Source: feeds/packages/lang/node-cylon
+License: Apache-2.0
+Section: lang
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 23786
+Filename: node-cylon_0.22.0-1_ramips_24kec.ipk
+Size: 24606
+MD5Sum: 1f39bdcc56e93cf0d9be7760a614ad4b
+SHA256sum: 84fa917d3188db7d9468b82fc39c6da05ff3bf6f707158a7209ab15d19ee0c6c
+Description:  JavaScript Robotics, By Your Command Next generation robotics framework with support for 36 different platforms Get Started
+
+Package: node-hid
+Version: 0.4.0-1
+Depends: libc, libusb-1.0, hidapi, libstdcpp
+Source: feeds/packages/lang/node-hid
+License: Custom
+Section: lang
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 168516
+Filename: node-hid_0.4.0-1_ramips_24kec.ipk
+Size: 168919
+MD5Sum: 01d51dd2983beba5391bbb6143527d03
+SHA256sum: e527da08bc3c451084e02ae6adadd741a087437219d1ed7c5c31846132e56b8d
+Description:  Node.js package to access HID devices
+
+Package: node-serialport
+Version: 1.4.6-1
+Depends: libc, node
+Source: feeds/packages/lang/node-serialport
+License: Custom
+Section: lang
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 1102891
+Filename: node-serialport_1.4.6-1_ramips_24kec.ipk
+Size: 1102435
+MD5Sum: 68b862901b3f4a9529f2f0e9cf644763
+SHA256sum: befc9b0543c0489d895ff49e1fd4d518cfef8963320945dbc88df5c4a8d7d3ca
+Description:  Node.js package to access serial ports for reading and writing OR Welcome your robotic JavaScript overlords. Better yet, program them!
+
+Package: node
+Version: v0.12.7-1
+Depends: libc, libpthread, librt, libstdcpp, libopenssl, libuv
+Source: feeds/packages/lang/node
+Section: lang
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 4202083
+Filename: node_v0.12.7-1_ramips_24kec.ipk
+Size: 4189178
+MD5Sum: 8c53a6e6927c305855c958a6f5dc45a8
+SHA256sum: 7ed51e6e500def4a3572f5409eb86122c672693ac00e89166285030147106432
+Description:  Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses
+ an event-driven, non-blocking I/O model that makes it lightweight and efficient. Node.js'
+ package ecosystem, npm, is the largest ecosystem of open source libraries in the world.
+
+Package: python-base
+Version: 2.7.9-6
+Depends: libc, libpthread, zlib
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 694664
+Filename: python-base_2.7.9-6_ramips_24kec.ipk
+Size: 692273
+MD5Sum: 8a60c56c1189a0a383c6a48070c563e2
+SHA256sum: 007c996f93bf67f09a410b89eb9f41f45aae343ac45fe224e2839ffab17f6721
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-codecs
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 838911
+Filename: python-codecs_2.7.9-6_ramips_24kec.ipk
+Size: 818401
+MD5Sum: b9a0d446ab5b369dea5b0d11440d4ed5
+SHA256sum: 32d7216364892a874a8b40170972a8957f9d5798f5196e00382856104ffc70bc
+Description:  Python 2.7 codecs + unicode support
+
+Package: python-compiler
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 37933
+Filename: python-compiler_2.7.9-6_ramips_24kec.ipk
+Size: 38851
+MD5Sum: ff5d1e93a1ee6d936625031ac6c8c5f6
+SHA256sum: 73aa9ab9523361cb98138d6660f930d667e841251a1a810af01e0f8b69a4bf07
+Description:  Python 2.7 compiler module
+
+Package: python-ctypes
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 99079
+Filename: python-ctypes_2.7.9-6_ramips_24kec.ipk
+Size: 99928
+MD5Sum: dab5f99dac99dab408050288f4f7937c
+SHA256sum: d08932a9eab8248d6b89898a36bc6c8a67051a6eb9ddb4e74b1425a4717b3c12
+Description:  Python 2.7 ctypes module
+
+Package: python-db
+Version: 2.7.9-6
+Depends: libc, python-light, libdb47
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 99531
+Filename: python-db_2.7.9-6_ramips_24kec.ipk
+Size: 100055
+MD5Sum: 0a61a156bf2381c21aa0e28a4f07a701
+SHA256sum: 95b8817477ea990f2f45fc967debb80753a6978071ee609f4774d95314e2bdb0
+Description:  Python 2.7 db module
+
+Package: python-decimal
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 47100
+Filename: python-decimal_2.7.9-6_ramips_24kec.ipk
+Size: 48020
+MD5Sum: f5e5b4d270fa5fd2dc80db88ffd8a21b
+SHA256sum: fa475564968a2a23a5e10ea81d25a6bbff9bf829da766fccef16508f5635aa72
+Description:  Python 2.7 decimal module
+
+Package: python-distutils
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 541631
+Filename: python-distutils_2.7.9-6_ramips_24kec.ipk
+Size: 542591
+MD5Sum: 0469eaac08aedd4b6ce175bb3133fbe1
+SHA256sum: be96141a0d41b7480929062cc9b2fdc8a8422f8d0a116db2453e2499c519b85f
+Description:  Python 2.7 distutils
+
+Package: python-email
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 146805
+Filename: python-email_2.7.9-6_ramips_24kec.ipk
+Size: 147681
+MD5Sum: 82f53db81e637dc86b2c78927e4cc705
+SHA256sum: b25df8ca0fe0938e2f1bdfa9d0d3ccefd4f76fd1f1cb6d491b10df1e941abf00
+Description:  Python 2.7 email module
+
+Package: python-gdbm
+Version: 2.7.9-6
+Depends: libc, python-light, libgdbm
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 5584
+Filename: python-gdbm_2.7.9-6_ramips_24kec.ipk
+Size: 6394
+MD5Sum: 24dfcb15fcc155941b11828d8963db6a
+SHA256sum: 8320ab9c352466a77dda0c18cfddb72babc16c4e6fd653bcaa657e34752dc851
+Description:  Python 2.7 gdbm module
+
+Package: python-light
+Version: 2.7.9-6
+Depends: libc, python-base, libffi, libbz2
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 1233821
+Filename: python-light_2.7.9-6_ramips_24kec.ipk
+Size: 1233767
+MD5Sum: 647372705f040f89dab586a11b84a4dc
+SHA256sum: 0e01b107ec3d4f35b512114dc637615e399f11d56ae2b3a8fdbbb278768d63b1
+Description:  This package is essentially the python-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python-logging
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 37060
+Filename: python-logging_2.7.9-6_ramips_24kec.ipk
+Size: 38001
+MD5Sum: 61a515806fe3d563069bc01a7c3a2f68
+SHA256sum: 3c23ea0d59d205d750c5dc173727293a64fbe20f1e722b7f144e7e367db4f3b5
+Description:  Python 2.7 logging module
+
+Package: python-multiprocessing
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 46160
+Filename: python-multiprocessing_2.7.9-6_ramips_24kec.ipk
+Size: 46980
+MD5Sum: 88289ea324f929ed67881f131d7f02c7
+SHA256sum: 1f96af8f9a2c372aab1c0fc5a6fefb91758b84722216f96fa871072033934bd8
+Description:  Python 2.7 multiprocessing
+
+Package: python-ncurses
+Version: 2.7.9-6
+Depends: libc, python-light, libncurses
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 26325
+Filename: python-ncurses_2.7.9-6_ramips_24kec.ipk
+Size: 26828
+MD5Sum: cbf97fdd2c69c3f738b8109d8458a47e
+SHA256sum: d9abcc27bb1057d00ce32894143dee65a65a9831b38da1afe9b31fe7314a3f6c
+Description:  Python 2.7 ncurses module
+
+Package: python-openssl
+Version: 2.7.9-6
+Depends: libc, python-light, libopenssl
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 32674
+Filename: python-openssl_2.7.9-6_ramips_24kec.ipk
+Size: 33300
+MD5Sum: 261f9406a58ff7dc4ff055d503c21aff
+SHA256sum: 65fc918a9a5e4a4ddd4749d9aac360ba3672cc5968342f6c80ed8eb0b078943d
+Description:  Python 2.7 SSL module
+
+Package: python-pip
+Version: 1.5.6-1
+Depends: libc, python, python-setuptools
+Source: feeds/packages/lang/python-pip
+Section: lang
+Architecture: ramips_24kec
+Installed-Size: 736200
+Filename: python-pip_1.5.6-1_ramips_24kec.ipk
+Size: 725689
+MD5Sum: 979cbb3422340383332b339cc98f63a5
+SHA256sum: bd244c493fc5e6aa513d0b87d1d451a7f9a843ec0e6c8f4302004fb9c5d2b771
+Description:  A tool for installing and managing Python packages.
+
+Package: python-pydoc
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 164264
+Filename: python-pydoc_2.7.9-6_ramips_24kec.ipk
+Size: 164820
+MD5Sum: bbd09a4c8f1541b0f458491ea38f7e85
+SHA256sum: 2994ed95f8135d94760909a54d813c05e66e9f631bc5ef8100f0d83ae0eb16b5
+Description:  Python 2.7 pydoc module
+
+Package: python-pyserial
+Version: 2.7-1
+Depends: libc, python-light
+Source: feeds/packages/lang/python-pyserial
+License: Python-2.0
+Section: lang
+Maintainer: Micke Prag <micke.prag@telldus.se>
+Architecture: ramips_24kec
+Installed-Size: 54416
+Filename: python-pyserial_2.7-1_ramips_24kec.ipk
+Size: 55233
+MD5Sum: 739d10575af390638a28611653d4d45e
+SHA256sum: 76852266af8354a87f5660dd20960c84263e38b2be9e8a37895c18b9c6222d05
+Description:  serial port python bindings
+
+Package: python-setuptools
+Version: 7.0-1
+Depends: libc, python
+Source: feeds/packages/lang/python-setuptools
+Section: lang
+Architecture: ramips_24kec
+Installed-Size: 202935
+Filename: python-setuptools_7.0-1_ramips_24kec.ipk
+Size: 203786
+MD5Sum: 50228ba8ba2987248236495b316c87a8
+SHA256sum: 3d2f6148adc79116c61702574a52ee06c982d728679649cb00764f5bd7fcb9a7
+Description:  Easily download, build, install, upgrade, and uninstall Python packages
+
+Package: python-sqlite3
+Version: 2.7.9-6
+Depends: libc, python-light, libsqlite3
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 41839
+Filename: python-sqlite3_2.7.9-6_ramips_24kec.ipk
+Size: 42749
+MD5Sum: 0446035d7e3ac6925bdcedd1d4238f46
+SHA256sum: a6c10ef488df236a54b1540acdb202596772d86c1ba498a1d4f34c7905835aa7
+Description:  Python 2.7 sqlite3 module
+
+Package: python-unittest
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 53730
+Filename: python-unittest_2.7.9-6_ramips_24kec.ipk
+Size: 54602
+MD5Sum: 9bde7cce1566c3b5674878cf22a91f6d
+SHA256sum: 7f3c06f8b66d0d2f63623cbd3d0df48ba0b4d01a6b1271e2e845a9e9d8f8a65c
+Description:  Python 2.7 unittest module
+
+Package: python-xml
+Version: 2.7.9-6
+Depends: libc, python-light
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 156411
+Filename: python-xml_2.7.9-6_ramips_24kec.ipk
+Size: 157199
+MD5Sum: 115da184e82dba827a3db98e85a664a8
+SHA256sum: 4bf6db7fad412dc77187c9db1ccf91520824b4e142b047e9b49bfa9aadd7c347
+Description:  Python 2.7 xml libs
+
+Package: python
+Version: 2.7.9-6
+Depends: libc, python-light, python-codecs, python-compiler, python-ctypes, python-db, python-decimal, python-distutils, python-email, python-gdbm, python-logging, python-multiprocessing, python-ncurses, python-openssl, python-pydoc, python-sqlite3, python-unittest, python-xml
+Source: feeds/packages/lang/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: ramips_24kec
+Installed-Size: 105
+Filename: python_2.7.9-6_ramips_24kec.ipk
+Size: 1026
+MD5Sum: 5a123da1ecc25f86cae7c6af532cccf4
+SHA256sum: 9334f9d5824238da659253466cc8d8f9e2ee7e2dd69a4b6e4e6532eaa934b4de
+Description:  This package contains the (almost) full Python install.
+ It's python-light + all other packages.
+
+Package: spi-tools
+Version: 1-cc6a41fdcec60610703ba6db488c621c64952898
+Depends: libc
+Source: feeds/packages/utils/spi-tools
+License: GPL-2.0
+Section: utils
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 4511
+Filename: spi-tools_1-cc6a41fdcec60610703ba6db488c621c64952898_ramips_24kec.ipk
+Size: 5237
+MD5Sum: b09853b819649f1b37ea65e3d3519f9f
+SHA256sum: 8969bae1399a3c9d19410761403a119adcaed3673c1c6cfd397ff0ef1cf54969
+Description:  Command line SPI tools
+
+Package: yunbridge
+Version: 160-f2042052115e71ad2c91f77e78d21db8275fcdd6
+Depends: libc, python
+Source: feeds/packages/utils/yunbridge
+License: GPL-2.0
+Section: utils
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: ramips_24kec
+Installed-Size: 18244
+Filename: yunbridge_160-f2042052115e71ad2c91f77e78d21db8275fcdd6_ramips_24kec.ipk
+Size: 19019
+MD5Sum: b5d2cc6e5a304558e39b528967bcf7fa
+SHA256sum: c88a36dd5a5aa114387df11d1596c21a28e34ce42df42459e4e5569893082bb5
+Description:  Arduino YUN bridge library
+

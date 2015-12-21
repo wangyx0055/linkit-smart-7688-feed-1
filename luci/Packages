@@ -1,0 +1,169 @@
+Package: luci-app-firewall
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc, firewall
+Source: feeds/luci/applications/luci-app-firewall
+Section: luci
+Architecture: all
+Installed-Size: 10438
+Filename: luci-app-firewall_git-15.352.62701-b7fe44a-1_all.ipk
+Size: 11147
+MD5Sum: 740fd13e6e5ed1d355df0320d9a0fa64
+SHA256sum: abf82bea16784525631f507ebd74811021bffc49883618e42ec32277c1f4aeef
+Description:  Firewall and Portforwarding application
+
+Package: luci-app-mjpg-streamer
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc, mjpg-streamer
+Source: feeds/luci/applications/luci-app-mjpg-streamer
+Section: luci
+Architecture: all
+Installed-Size: 3056
+Filename: luci-app-mjpg-streamer_git-15.352.62701-b7fe44a-1_all.ipk
+Size: 3840
+MD5Sum: 9494d0a9a331d1a847b1e94d29ae16a4
+SHA256sum: 273ea8a5f99093ea3502a0a8822a2042648a8565f746d6491fbca38423658679
+Description:  MJPG-Streamer service configuration module
+
+Package: luci-app-samba
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc, samba36-server
+Source: feeds/luci/applications/luci-app-samba
+Section: luci
+Architecture: all
+Installed-Size: 1361
+Filename: luci-app-samba_git-15.352.62701-b7fe44a-1_all.ipk
+Size: 2099
+MD5Sum: 9bcdda40619405094f08b3260cef0b79
+SHA256sum: 3f4d989de32e3c319450a723a587e73e0cd5301a926eeb94152a5116c4fa95b4
+Description:  Network Shares - Samba SMB/CIFS module
+
+Package: luci-base
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc, lua, libuci-lua, luci-lib-nixio, luci-lib-ip, rpcd, libubus-lua
+Source: feeds/luci/modules/luci-base
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 122954
+Filename: luci-base_git-15.352.62701-b7fe44a-1_ramips_24kec.ipk
+Size: 123836
+MD5Sum: a0f80d41a946a5d13fead43ac9600414
+SHA256sum: 23721f49bfa23ef4e3541d2ed4b377f0a9761f9fa633ccae3a7d98517ad63683
+Description:  LuCI core libraries
+
+Package: luci-lib-ip
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc, liblua, libnl-tiny
+Source: feeds/luci/libs/luci-lib-ip
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 9386
+Filename: luci-lib-ip_git-15.352.62701-b7fe44a-1_ramips_24kec.ipk
+Size: 10102
+MD5Sum: f1f633a2717dda53b095ec9758637023
+SHA256sum: 2c7257a74b9b0062ec6010a5dd1230fe0c3a1e9af3d6ac79b9ff2f6b609a8e5d
+Description:  Lua library for IP calculation and routing information
+
+Package: luci-lib-json
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc
+Source: feeds/luci/libs/luci-lib-json
+Section: luci
+Architecture: all
+Installed-Size: 3113
+Filename: luci-lib-json_git-15.352.62701-b7fe44a-1_all.ipk
+Size: 3801
+MD5Sum: 3dba802c8255da6118c782a30d3dddfb
+SHA256sum: 28d1faf7b2a356d2afba9db114b4ed282aca44dd6fa8b6077a8e5de7d40f1833
+Description:  LuCI JSON library
+
+Package: luci-lib-nixio
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc, liblua
+Source: feeds/luci/libs/luci-lib-nixio
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 29187
+Filename: luci-lib-nixio_git-15.352.62701-b7fe44a-1_ramips_24kec.ipk
+Size: 29756
+MD5Sum: 93f8113528bddb31ae9824dc45c1d361
+SHA256sum: 7087e50e28e1dc018b40b42a9bcf164cd706f0f903dd1144758b98cc6cdd99dd
+Description:  NIXIO POSIX library
+
+Package: luci-mod-admin-full
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc, luci-base
+Source: feeds/luci/modules/luci-mod-admin-full
+Section: luci
+Architecture: ramips_24kec
+Installed-Size: 69979
+Filename: luci-mod-admin-full_git-15.352.62701-b7fe44a-1_ramips_24kec.ipk
+Size: 70828
+MD5Sum: 85bab6e6688a531d4ca087131d1ce10f
+SHA256sum: fac9a2da668e17ce6bf900ce1b1e6c2b76d0a9c9b599a9a6f916da52bc276442
+Description:  LuCI Administration - full-featured for full control
+
+Package: luci-proto-ipv6
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ipv6
+Section: luci
+Architecture: all
+Installed-Size: 4384
+Filename: luci-proto-ipv6_git-15.352.62701-b7fe44a-1_all.ipk
+Size: 5071
+MD5Sum: 10b8c3cae41127d8c7c53aba9998f917
+SHA256sum: 0e6c6499d08505b9a862440319d68b6b5b3da132f2a8eff963f089d47e5bdd74
+Description:  Support for DHCPv6/6in4/6to4/6rd/DS-Lite/aiccu
+
+Package: luci-proto-ppp
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc
+Source: feeds/luci/protocols/luci-proto-ppp
+Section: luci
+Architecture: all
+Installed-Size: 2619
+Filename: luci-proto-ppp_git-15.352.62701-b7fe44a-1_all.ipk
+Size: 3295
+MD5Sum: f235b94649d643adfcf402ddaf288e84
+SHA256sum: 9f5df5e849d883267be210d1cb047d85e567778080781f31baf8ffb62d45c22d
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-theme-bootstrap
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc
+Source: feeds/luci/themes/luci-theme-bootstrap
+Section: luci
+Architecture: all
+Installed-Size: 13067
+Filename: luci-theme-bootstrap_git-15.352.62701-b7fe44a-1_all.ipk
+Size: 13792
+MD5Sum: 650f059956626fc585c3f9e647dad1d5
+SHA256sum: e33a0c07990f18a6749603f69c8ee061875b97b009ddfa384a6c400b491b1176
+Description:  Bootstrap Theme (default)
+
+Package: luci-theme-openwrt
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc
+Source: feeds/luci/themes/luci-theme-openwrt
+Section: luci
+Architecture: all
+Installed-Size: 6976
+Filename: luci-theme-openwrt_git-15.352.62701-b7fe44a-1_all.ipk
+Size: 7781
+MD5Sum: e8f6b0e72e7bfb1f435dc83dc0edacab
+SHA256sum: 161a762730626513844ec9c8fa31caad71560fee23f1ad1e43304ad6b7404efc
+Description:  LuCI OpenWrt.org theme
+
+Package: luci
+Version: git-15.352.62701-b7fe44a-1
+Depends: libc, uhttpd, uhttpd-mod-ubus, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6
+Source: feeds/luci/collections/luci
+Section: luci
+Architecture: all
+Installed-Size: 104
+Filename: luci_git-15.352.62701-b7fe44a-1_all.ipk
+Size: 876
+MD5Sum: 23161d12a8c74684051d399c167b67a5
+SHA256sum: 4e3375fc57d07f5305bc5089e990565fe78b185490e43cdb63e01b90be7a4124
+Description:  Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+
